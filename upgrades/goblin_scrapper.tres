@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://6flolmoc04ce"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_uoora"]
+
+[resource]
+script = ExtResource("1_uoora")
+base_pps = 0.5
+base_cost = 75
+label = "Goblin Scrapper"
+description = "Steals potatoes from neighbouring fields and brings them to yours. You asked no questions."
+unlock_threshold = 50
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

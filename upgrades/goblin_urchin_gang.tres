@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://elmhx2pq5m2t"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_d4x15"]
+
+[resource]
+script = ExtResource("1_d4x15")
+base_pps = 7.0
+base_cost = 4375
+label = "Goblin Urchin Gang"
+description = "paid in potato scraps, harvest in chaotic swarms, somehow it works."
+unlock_threshold = 4000
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

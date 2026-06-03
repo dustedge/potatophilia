@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://4s7nahlgb27x"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_yxu58"]
+
+[resource]
+script = ExtResource("1_yxu58")
+base_pps = 0.2
+base_cost = 20
+label = "Human Peasant"
+description = " shows up, digs, asks few questions. The backbone of any potato empire."
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

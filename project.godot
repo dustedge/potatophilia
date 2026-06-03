@@ -1,0 +1,45 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Potatophilia"
+config/version="0.6.0"
+run/main_scene="uid://cw23f2rlb0koh"
+config/features=PackedStringArray("4.6", "GL Compatibility")
+run/max_fps=144
+boot_splash/use_filter=false
+boot_splash/image="uid://d3c2chfn6umqb"
+config/icon="uid://b44p37yu7do07"
+boot_splash/minimum_display_time=2000
+
+[autoload]
+
+Globals="*uid://cumgvqvi1dta1"
+UpgradeManager="*uid://c7li2dcxhke6i"
+
+[display]
+
+window/stretch/mode="canvas_items"
+
+[editor]
+
+movie_writer/movie_file="E:/Code/Godot Projects/webclicker/test.ogv"
+
+[physics]
+
+3d/physics_engine="Jolt Physics"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
+rendering_device/driver.windows="d3d12"
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

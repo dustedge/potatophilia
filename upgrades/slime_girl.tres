@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://tg5kqxbjfkj7"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_fv7y6"]
+
+[resource]
+script = ExtResource("1_fv7y6")
+base_pps = 1.0
+base_cost = 200
+label = "Slime Girl"
+description = "absorbs water from the air and distributes it through the soil directly. Irrigation costs dropped to zero. She finds this very funny."
+unlock_threshold = 200
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

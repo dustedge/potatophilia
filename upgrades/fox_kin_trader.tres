@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://gdp2kjetqdi7"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_i8oax"]
+
+[resource]
+script = ExtResource("1_i8oax")
+base_pps = 3.5
+base_cost = 1330
+label = "Fox-Kin Trader"
+description = " Doesn't farm, but their merchant instincts flip your surplus into twice the seeds in half the time."
+unlock_threshold = 1200
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

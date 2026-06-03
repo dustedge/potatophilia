@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://ch3lm0dtvrawu"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_wsrkd"]
+
+[resource]
+script = ExtResource("1_wsrkd")
+base_pps = 12.0
+base_cost = 6300
+label = "Water Wheel"
+description = "diverts the nearby stream to automate irrigation. Creaky, reliable, never complains"
+unlock_threshold = 6000
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

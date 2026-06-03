@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://druot22c84q8a"]
+
+[ext_resource type="Script" uid="uid://bwwjlecwosnx0" path="res://scripts/news_label.gd" id="1_q681s"]
+
+[sub_resource type="Animation" id="Animation_3npwl"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_m6cnc"]
+resource_name = "dissapear"
+length = 10.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(-0.033333335, 0.96666664, 10),
+"transitions": PackedFloat32Array(22.627409, 22.627409, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 10),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -200)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_1y5nw"]
+_data = {
+&"RESET": SubResource("Animation_3npwl"),
+&"dissapear": SubResource("Animation_m6cnc")
+}
+
+[node name="NewsLabel" type="Label" unique_id=1276664102]
+offset_right = 512.0
+offset_bottom = 104.0
+text = "Local farmers warn about potato shortages after drought"
+script = ExtResource("1_q681s")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1581323821]
+libraries/ = SubResource("AnimationLibrary_1y5nw")
+autoplay = &"dissapear"
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://bhf1ni6e6ri1c"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_fndcw"]
+
+[resource]
+script = ExtResource("1_fndcw")
+base_pps = 1.5
+base_cost = 375
+label = "Ork Labourer"
+description = "Three times stronger than a human farmhand, works for meat and the occasional arm-wrestle."
+unlock_threshold = 300
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

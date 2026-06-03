@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dd3smqok7166g"]
+
+[ext_resource type="Script" uid="uid://cklar1xqhqxdx" path="res://scripts/upgrades_static.gd" id="1_014o1"]
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="2_4xcf2"]
+[ext_resource type="Resource" uid="uid://cdemtw43s63kw" path="res://upgrades/apprentice_wizard.tres" id="3_pdg38"]
+[ext_resource type="Resource" uid="uid://cenawr25nqj1w" path="res://upgrades/dryad.tres" id="4_k7xvw"]
+[ext_resource type="Resource" uid="uid://c1m321fgmtklu" path="res://upgrades/dwarf_tunneler.tres" id="5_wcquq"]
+[ext_resource type="Resource" uid="uid://o4s74wr2r0n7" path="res://upgrades/elf_cultivator.tres" id="6_ehlsr"]
+[ext_resource type="Resource" uid="uid://gdp2kjetqdi7" path="res://upgrades/fox_kin_trader.tres" id="7_2avos"]
+[ext_resource type="Resource" uid="uid://6flolmoc04ce" path="res://upgrades/goblin_scrapper.tres" id="8_jpjkp"]
+[ext_resource type="Resource" uid="uid://elmhx2pq5m2t" path="res://upgrades/goblin_urchin_gang.tres" id="9_kbahh"]
+[ext_resource type="Resource" uid="uid://depvtkfh4mio3" path="res://upgrades/harpy.tres" id="10_qjana"]
+[ext_resource type="Resource" uid="uid://4s7nahlgb27x" path="res://upgrades/human_peasant.tres" id="11_j5xd3"]
+[ext_resource type="Resource" uid="uid://bqst0lu2vu2er" path="res://upgrades/lamia_overseer.tres" id="12_infhi"]
+[ext_resource type="Resource" uid="uid://bhf1ni6e6ri1c" path="res://upgrades/ork_labourer.tres" id="13_6bgg4"]
+[ext_resource type="Resource" uid="uid://tg5kqxbjfkj7" path="res://upgrades/slime_girl.tres" id="14_4j6x6"]
+[ext_resource type="Resource" uid="uid://ch3lm0dtvrawu" path="res://upgrades/water_wheel.tres" id="15_4ks7e"]
+
+[node name="StaticUpgrades" type="Node" unique_id=135241006]
+script = ExtResource("1_014o1")
+upgrades = Array[ExtResource("2_4xcf2")]([ExtResource("3_pdg38"), ExtResource("4_k7xvw"), ExtResource("5_wcquq"), ExtResource("6_ehlsr"), ExtResource("7_2avos"), ExtResource("8_jpjkp"), ExtResource("9_kbahh"), ExtResource("10_qjana"), ExtResource("11_j5xd3"), ExtResource("12_infhi"), ExtResource("13_6bgg4"), ExtResource("14_4j6x6"), ExtResource("15_4ks7e")])

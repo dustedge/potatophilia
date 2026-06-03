@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://o4s74wr2r0n7"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_73w5e"]
+
+[resource]
+script = ExtResource("1_73w5e")
+base_pps = 24.0
+base_cost = 20400
+label = "Elf Cultivator"
+description = "Coaxes growth from soil others have given up on. Won't shut up about the old ways, but the yields speak for themselves."
+unlock_threshold = 15000
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

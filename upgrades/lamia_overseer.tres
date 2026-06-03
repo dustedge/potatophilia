@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://bqst0lu2vu2er"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_6lggi"]
+
+[resource]
+script = ExtResource("1_6lggi")
+base_pps = 26.5
+base_cost = 24275
+label = "Lamia Overseer"
+description = "Coils around the field perimeter and watches everything with unsettling focus. Pest problem? Gone. Workers slacking? What workers?"
+unlock_threshold = 40000
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"

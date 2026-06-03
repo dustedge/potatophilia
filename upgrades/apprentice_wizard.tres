@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="Upgrade" format=3 uid="uid://cdemtw43s63kw"]
+
+[ext_resource type="Script" uid="uid://b4tl2tshkw1oi" path="res://upgrade.gd" id="1_dskbc"]
+
+[resource]
+script = ExtResource("1_dskbc")
+base_pps = 20.0
+base_cost = 14000
+label = "Apprentice Wizard"
+description = "expelled from the academy for turning a professor's shoes into potatoes. You hired him immediately."
+unlock_threshold = 12000
+metadata/_custom_type_script = "uid://b4tl2tshkw1oi"
